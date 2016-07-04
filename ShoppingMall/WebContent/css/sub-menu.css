@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+#sub-menu{
+	padding:0px;
+	margin:0px;
+	margin-left:-35px;
+	position:fixed;
+	z-index:999999;
+
+	
+}
+
+#sub-menu ul{
+	padding-left:5px;
+	padding-right:5px;
+	padding:0px;
+	margin:0px;
+}
+#sub-menu li img{
+	
+	width:30px;
+	height:29px;
+}
+#sub-menu li{
+	background-color:#FF8000;
+	margin-bottom:3px;
+	border:1px solid #D7D7D7;
+	border-radius:5px;
+	text-align:right;
+
+	list-style:none;
+	
+}
+#sub-menu li a{
+	text-decoration:none;
+}
+#sub-menu li:hover{
+	text-decoration:none;
+	color:#0FF;
+	background-color:#930;
+	
+}
+
+/*************************** show-hide ************/
+
+#sub-menu-button{
+	padding:0px;
+	margin:0px;
+	bottom:20px;
+	position:fixed;
+	z-index:999999;	
+}
+
+#sub-menu-button ul{
+	padding-left:5px;
+	padding-right:5px;
+	padding:0px;
+	margin:0px;
+}
+#sub-menu-button li img{
+	
+	width:30px;
+	height:29px;
+}
+#sub-menu-button li{
+	background-color:#FF8000;
+	margin-bottom:3px;
+	border:1px solid #D7D7D7;
+	border-radius:5px;
+	text-align:right;
+
+	list-style:none;
+	
+}
+#sub-menu-button li a{
+	text-decoration:none;
+}
+#sub-menu-button li:hover{
+	text-decoration:none;
+	color:#0FF;
+	background-color:#930;
+	
+}
+
+
+
